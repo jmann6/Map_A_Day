@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Add your site or application content here -->
+        <p>Hello world! This is the D3.js tutorial.</p>
+
+		
+		<style>
+		
+		.chart rect {
+		  fill: steelblue;
+		}
+		
+		.chart text {
+		  fill: white;
+		  font: 10px sans-serif;
+		  text-anchor: end;
+		}
+		
+		</style>
+		<svg class="chart"></svg>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script>
+		
+		var data = [4, 8, 15, 16, 23, 42];
+		
+		var width = 420,
+		    barHeight = 20;
+		
+		var x = d3.scale.linear()
+		    .domain([0, d3.max(data)])
+		    .range([0, width]);
+		
+		var chart = d3.select(".chart")
+		    .attr("width", width)
+		    .attr("height", barHeight * data.length);
+		
+		var bar = chart.selectAll("g")
+		    .data(data)
+		  .enter().append("g")
+		    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
+		
+		bar.append("rect")
+		    .attr("width", x)
+		    .attr("height", barHeight - 1);
+		
+		bar.append("text")
+		    .attr("x", function(d) { return x(d) - 3; })
+		    .attr("y", barHeight / 2)
+		    .attr("dy", ".35em")
+		    .text(function(d) { return d; });
+		
+		</script>
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
