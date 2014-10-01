@@ -1,0 +1,3 @@
+// Created Mapbox layer for Boot Leaf project
+
+L.mapbox.tileLayer('jasonhoward123.jk0njpal');
