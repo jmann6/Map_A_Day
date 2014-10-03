@@ -1,7 +1,7 @@
 Map_A_Day
 =========
 
-Personal goal of creating a map or graphic every day for 365 days.  I hope to learn a lot of new mapping tools and techniques in the process!
+Personal goal of creating a map or graphic every day for 365 days.  I'm learning a lot of new tools and techniques in the process!
 
 ![ScreenShot](http://jasonhoward.info/wp-content/uploads/2014/09/Screen-Shot-2014-09-29-at-5.04.11-PM.png)
 
