@@ -1,0 +1,23 @@
+https://api.tiles.mapbox.com/v4/surface/mapbox.mapbox-terrain-v1.json?layer=landcover&fields=class&access_token=pk.eyJ1IjoiZHVuY2FuZ3JhaGFtIiwiYSI6IlJJcWdFczQifQ.9HUpTV1es8IjaGAf_s64VQ&points=-122.46837615966797,37.797441398913286;-122.43816375732422,37.78930232286027;-122.44743347167969,37.780891002363106;-122.4836540222168,37.77098612371078;-122.48296737670898,37.78211205989559;-122.46871948242186,37.78875968591083;-122.47404098510741,37.793100669930396;-122.48142242431642,37.790251927933284&zoom=14&interpolate=true
+
+{
+  "results": [
+    {
+      "id": 0,
+      "latlng": {
+        "lat": 37.797441398913286,
+        "lng": -122.46837615966797
+      },
+      "class": "scrub"
+    },
+    {
+      "id": 3,
+      "latlng": {
+        "lat": 37.77098612371078,
+        "lng": -122.4836540222168
+      },
+      "class": "wood"
+    }
+  ],
+  "attribution": "© Mapbox"
+}
