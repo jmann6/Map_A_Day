@@ -1,0 +1,38 @@
+/* 
+An example of integrating MapBox with OpenLayers.
+
+To use this example, you'll want to:
+
+Replace layer_id with one of your layers from MapBox - click 'Publish' and copy the ID.
+*/
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OpenLayers MapBox Example</title>
+        <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+        <style>
+        body { margin:0; height:0; }
+        #map { width:960px; height:500px; }
+        </style>
+    </head>
+    <body>
+        <div id='map'></div>
+        <script src='http://openlayers.org/api/2.12/OpenLayers.js'></script>
+        <script>
+        var map = new OpenLayers.Map('map');
+        var layer_id = 'examples.map-z2effxa8';
+        var layer = new OpenLayers.Layer.XYZ('MapBox', [
+            'http://a.tiles.mapbox.com/v3/' + layer_id + '/${z}/${x}/${y}.png',
+            'http://b.tiles.mapbox.com/v3/' + layer_id + '/${z}/${x}/${y}.png',
+            'http://c.tiles.mapbox.com/v3/' + layer_id + '/${z}/${x}/${y}.png',
+            'http://d.tiles.mapbox.com/v3/' + layer_id + '/${z}/${x}/${y}.png'], {
+            sphericalMercator: true,
+            wrapDateLine: true
+        });
+        map.addLayer(layer);
+        map.zoomTo(2);
+        </script>
+    </body>
+</html>
