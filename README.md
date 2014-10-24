@@ -9,6 +9,8 @@ Personal goal of creating a map or graphic every day for 365 days. Trying to use
 
 ![ScreenShot](http://jasonhoward.info/wp-content/uploads/2014/10/OilandGasWellDenver.png)
 
+![ScreenShot](http://jasonhoward.info/wp-content/uploads/2014/10/VoronoiPolygonMapOilandGasFacilities.png)
+
 ![ScreenShot](http://jasonhoward.info/wp-content/uploads/2014/09/MapBoxStudio_greengrass.png)
 
 ![ScreenShot](http://jasonhoward.info/wp-content/uploads/2011/02/japanmaps.png)
