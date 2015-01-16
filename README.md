@@ -25,7 +25,5 @@ Personal goal of creating a map or graphic every day for 365 days. Trying to use
 
 ![ScreenShot](http://jasonhoward.info/wp-content/uploads/2013/04/Screen-Shot-2013-04-11-at-6.32.37-PM.png)
 
-![ScreenShot](http://jasonhoward.info/wp-content/uploads/2013/04/Screen-Shot-2013-04-11-at-6.32.37-PM.png)
-
 ![ScreenShot](http://jasonhoward.info/wp-content/uploads/2014/11/MovieRevenue.png)
 
