@@ -3,6 +3,8 @@ Map_A_Day
 
 Personal goal of creating a map or graphic every day for 365 days. Trying to use as many methods and solutions as possible.
 
+![ScreenShot](http://jasonhoward.info/wp-content/uploads/2014/10/ColoradoOilandGasPermits2014.png)
+
 ![ScreenShot](http://jasonhoward.info/wp-content/uploads/2014/10/UK_Oil_Wells_and_Geological_Basins.bmp)
 
 ![ScreenShot](http://jasonhoward.info/wp-content/uploads/2014/09/Screen-Shot-2014-09-29-at-5.04.11-PM.png)
