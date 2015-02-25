@@ -1,5 +1,6 @@
 https://www.mapbox.com/blog/bigtiff-upload-support/
 
-Bigtiff support added to Mapbox.  Great for drone imagery.  Up got 10 GB.
+Bigtiff support added to Mapbox.  Great for drone imagery.  Up to 10 GB.
 
+Bigtiff is a special flavor of the TIFF format that uses 64-bit offsets to far exceed the 4 GB file size limit that normal TIFFs have.
 
