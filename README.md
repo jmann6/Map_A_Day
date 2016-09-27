@@ -1,7 +1,7 @@
 Map_A_Day
 =========
 
-Personal goal of creating a map or graphic every day for 365 days. Trying to use as many methods and solutions as possible.
+Personal goal of creating a map or graphic every day. Trying to use as many methods and solutions as possible.
 
 ![ScreenShot](http://jasonhoward.info/wp-content/uploads/2014/10/ColoradoOilandGasPermits2014.png)
 
